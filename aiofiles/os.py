@@ -21,6 +21,7 @@ rename = wrap(os.rename)
 remove = wrap(os.remove)
 mkdir = wrap(os.mkdir)
 rmdir = wrap(os.rmdir)
+listdir = wrap(os.listdir)
 
 if hasattr(os, "sendfile"):
     sendfile = wrap(os.sendfile)
